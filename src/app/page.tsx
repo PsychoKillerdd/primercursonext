@@ -10,7 +10,7 @@ export default function Home() {
     <div className="miclase">hola</div>
     <Image
       src="/pokemongirls.jpg"
-      width={200}
+      width={500}
       height={500}
       alt="Picture of the author"
     />
