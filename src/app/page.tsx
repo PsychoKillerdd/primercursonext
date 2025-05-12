@@ -1,20 +1,11 @@
-import Image from 'next/image'
+import Header from '@/components/Header'
+import Navigation from '@/components/Navigation'
 
 export default function Home() {
   return (
     <>
-
-
-    <div className="bg-slate-950 text-white text-center p-28 ">
-    <h1>Hola Mundo!</h1>
-    <div className="miclase">hola</div>
-    <Image
-      src="/pokemongirls.jpg"
-      width={500}
-      height={500}
-      alt="Picture of the author"
-    />
-    </div>
+ <Navigation />
+ <Header title='Home' backgroundColor='bg-purple-400' />
     </>
   )
 }

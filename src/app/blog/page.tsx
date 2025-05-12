@@ -1,5 +1,7 @@
 import React from 'react'
 import { Metadata } from 'next';
+import Header from '@/components/Header';
+import Navigation from '@/components/Navigation';
 export const metadata: Metadata = {
     title: "Blog",
     description: "Esta es solo una pagina de prueba con next",
@@ -7,8 +9,9 @@ export const metadata: Metadata = {
   };
 export default function page() {
   return (
-    <div className="bg-red-500 text-white text-center p-28 ">
-        Blog
-        </div>
+    <>
+    <Navigation />
+    <Header title='Blog' backgroundColor='bg-red-400' />
+    </>
   )
 }
