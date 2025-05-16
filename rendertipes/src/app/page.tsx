@@ -1,11 +1,12 @@
-import React, { useState } from 'react'
+import Topbar from "@/components/Topbar";
+import Menu from '../components/Menu';
 
 export default function page() {
 
 return (
 <>
-<h1>Hello World</h1>  
-
+<Topbar />
+<Menu />
 </>
 )
 }
